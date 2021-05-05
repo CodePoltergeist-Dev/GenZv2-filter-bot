@@ -8,11 +8,11 @@ class Config(object):
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 5686406))
+    API_ID = int(os.environ.get("API_ID", 12345))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "4606c99d6234af24f676105e6c23211f")
+    API_HASH = os.environ.get("API_HASH", "")
     
     
     # Database URL from https://cloud.mongodb.com/
@@ -35,7 +35,7 @@ class Config(object):
 
     # Go to https://dashboard.heroku.com/account, scroll down and press Reveal API
     # To check dyno status
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "dd7baef2-dd89-41b3-b860-29381c4f89b2")
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
 
 
     # OPTIONAL - To set alternate BOT COMMANDS
